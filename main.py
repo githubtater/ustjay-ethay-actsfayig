@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 
-fact_string = 'The random fact is:<b>  {}</b><br>' \
+fact_string = 'Here\'s a random fact for you! <b>  {}</b><br>' \
         'Click here to view it in Pig Latin: {}'
 
 
