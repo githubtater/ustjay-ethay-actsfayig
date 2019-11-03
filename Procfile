@@ -1,2 +1,2 @@
- web: gunicorn microservice_web:app
+ web: gunicorn main:app
 
