@@ -1,1 +1,2 @@
-web: python main.py
+ web: gunicorn microservice_web:app
+
